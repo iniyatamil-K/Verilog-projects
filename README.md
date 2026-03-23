@@ -85,22 +85,52 @@ State transitions verified using waveform.
 
 ---
 
+## 🔹 5. Mini Project: ALU Controlled by FSM 🚀
+
+### Description
+
+Designed a simple digital system where an FSM controls an ALU to perform different operations automatically.
+
+### Architecture
+
+* FSM acts as control unit (generates Sel signal)
+* ALU acts as datapath (performs operations)
+
+### Operations
+
+* 00 → Addition
+* 01 → Subtraction
+* 10 → AND
+* 11 → OR
+
+### Key Learning
+
+* Integration of control logic and datapath
+* System-level design thinking
+* Clock-driven operation sequencing
+
+![Waveform](mini_project/miniproject.png)
+
+---
+
 ## 🔹 Skills Demonstrated
 
 * Verilog HDL coding
 * Combinational logic design
 * Sequential logic (FSM)
+* Datapath and control unit integration
 * Testbench development
 * Simulation using EDA Playground
-* Waveform analysis
+* Waveform analysis and debugging
 
 ---
 
 ## 🔹 Learning Outcome
 
 * Built and verified digital circuits using Verilog
-* Understood FSM design and state transitions
-* Gained hands-on experience in simulation and debugging
+* Understood FSM design and timing behavior
+* Gained experience in debugging simulation issues
+* Learned how real digital systems combine modules
 
 ---
 
@@ -108,10 +138,13 @@ State transitions verified using waveform.
 
 * Parameterized designs
 * Counters and registers
-* Mini project combining ALU + FSM
+* Advanced system design (processor-level projects)
 
 ---
 
 ## 🔹 Author
 
-Iniyatamil K
+**Iniyatamil K**
+
+---
+
