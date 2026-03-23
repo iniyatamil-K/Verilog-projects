@@ -1,24 +1,117 @@
-Verilog Projects
+# Verilog Projects
 
-  This repository contains basic digital design projects implemented using Verilog HDL.
+This repository contains digital design projects implemented using Verilog HDL.
+Each project includes design code, testbench, and simulation waveform.
 
-4-bit Adder:
+---
 
-Description:
- 
-  A 4-bit adder that performs binary addition of two inputs with carry input.
+## 🔹 1. 4-bit Adder
 
-Tools Used:
- - Verilog HDL
- - EDA Playground (Icarus Verilog)
+### Description
 
-Simulation Result:
- - The waveform verifies correct functionality:
- - 0011 + 0101 = 1000
- - 1111 + 0001 = 0000 (Cout = 1)
+Performs binary addition of two 4-bit inputs with carry.
 
-![Waveform] (4bit_adder/waveform.png)
+### Tools Used
 
-Goal:
+* Verilog HDL
+* EDA Playground (Icarus Verilog)
 
- To build strong fundamentals in VLSI and digital design through hands-on projects
+### Simulation Result
+
+* 0011 + 0101 = 1000
+* 1111 + 0001 = 0000 (Cout = 1)
+
+![Waveform](4bit_adder/4bitAdder.png)
+
+---
+
+## 🔹 2. 2:1 Multiplexer (MUX)
+
+### Description
+
+Selects one of two inputs based on select signal.
+
+### Logic
+
+* Sel = 0 → Output = A
+* Sel = 1 → Output = B
+
+### Simulation Result
+
+Verified using waveform.
+
+![Waveform](mux/mux2to1.png)
+
+---
+
+## 🔹 3. ALU (Arithmetic Logic Unit)
+
+### Description
+
+A 4-bit ALU that performs arithmetic and logical operations based on control signal.
+
+### Operations
+
+* 00 → Addition
+* 01 → Subtraction
+* 10 → AND
+* 11 → OR
+
+### Simulation Result
+
+Verified using waveform analysis.
+
+![Waveform](alu/ALU.png)
+
+---
+
+## 🔹 4. Traffic Light FSM
+
+### Description
+
+A finite state machine that cycles through traffic light states.
+
+### States
+
+* 00 → Green
+* 01 → Yellow
+* 10 → Red
+
+### Simulation Result
+
+State transitions verified using waveform.
+
+![Waveform](fsm/traffic_fsm.png)
+
+---
+
+## 🔹 Skills Demonstrated
+
+* Verilog HDL coding
+* Combinational logic design
+* Sequential logic (FSM)
+* Testbench development
+* Simulation using EDA Playground
+* Waveform analysis
+
+---
+
+## 🔹 Learning Outcome
+
+* Built and verified digital circuits using Verilog
+* Understood FSM design and state transitions
+* Gained hands-on experience in simulation and debugging
+
+---
+
+## 🔹 Future Work
+
+* Parameterized designs
+* Counters and registers
+* Mini project combining ALU + FSM
+
+---
+
+## 🔹 Author
+
+Iniyatamil K
