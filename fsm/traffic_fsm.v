@@ -10,7 +10,7 @@ parameter S2 = 2'b10; // Red
 
 always @(posedge clk or posedge reset) begin
     if (reset)
-        state <= S0;   // Proper reset
+        state <= S0;  
     else begin
         case (state)
             S0: state <= S1;
