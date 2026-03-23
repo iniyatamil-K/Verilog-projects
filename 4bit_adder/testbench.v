@@ -1,4 +1,4 @@
-module tb_adder;
+module tb;
 reg [3:0] A, B;
 reg Cin;
 wire [3:0] Sum;
@@ -13,6 +13,9 @@ adder_4bit uut (
 );
 
 initial begin
+    $dumpfile("dump.vcd");   // MUST match exactly
+    $dumpvars(0, tb);
+
     A = 4'b0000; B = 4'b0000; Cin = 0;
     #10 A = 4'b0011; B = 4'b0101;
     #10 A = 4'b1111; B = 4'b0001;
